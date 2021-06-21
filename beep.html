@@ -1,0 +1,29 @@
+---
+permalink: /api/beep.json
+---
+
+[
+  {% for fan in collections.fan %}
+    {
+      "title": "{{ fan.data.title | escape }}",
+      "description": "{{ fan.data.description }}",
+      "url": "{{ fan.url }}"
+    }{{ '' if loop.last else ',' }}
+  {% endfor  %},
+
+  {% for ups in collections.ups %}
+    {
+      "title": "{{ ups.data.title | escape }}",
+      "description": "{{ ups.data.description }}",
+      "url": "{{ ups.url }}"
+    }{{ '' if loop.last else ',' }}
+  {% endfor  %},
+
+  {%- for scale in collections.scale -%}
+    {
+      "title": "{{ scale.data.title | escape }}",
+      "description": "{{ scale.data.description }}",
+      "url": "{{ scale.url }}"
+    }{{ '' if loop.last else ',' }}
+  {%- endfor -%}
+]

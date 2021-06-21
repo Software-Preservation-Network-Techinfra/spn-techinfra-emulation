@@ -1,0 +1,25 @@
+{
+  "name": "spn-techinfra-emulation",
+  "version": "1.0.0",
+  "description": "SPN Technical Infrastructure Group Emulation Resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axfelix/spn-techinfra-emulation.git"
+  },
+  "author": "Alex Garnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axfelix/spn-techinfra-emulation/issues"
+  },
+  "homepage": "https://github.com/axfelix/spn-techinfra-emulation#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it": "^11.0.0",
+    "markdown-it-anchor": "^5.3.0",
+    "markdown-it-table-of-contents": "^0.4.4"
+  }
+}
