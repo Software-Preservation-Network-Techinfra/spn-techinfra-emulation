@@ -4,46 +4,27 @@ title: Home
 tags: home
 ---
 
-# SPN Technical Infrastructure Group Emulation Resource
+# SPN Techinfra Emulation
 
-## Fans
+## Introduction
 
-<ul class="teaser-links">
-  {%- for fan in collections.fan -%}
-    <li>
-      <h6>
-        <a href="{{ fan.url }}">{{ fan.data.title }}</a>
-      </h6>
-      <p>{{ fan.data.description }}</p>
-    </li>
-  {%- endfor -%}
-</ul>
+Welcome to the Software Preservation Network Technological Infrastructure (SPN Techinfra) Working Group's emulation guide and resource. The goal of this site to organize and elaborate on the use of software emulation in various institutional and non-institutional contexts. If you are looking to:
 
-## Power Supplies
+1. Understand the uses of software emulation
+2. Get started with emulation solutions in your organization
+3. Figure out the current state of the art according to various emulation use cases
 
-<ul class="teaser-links">
-  {%- for ups in collections.ups -%}
-    <li>
-      <h6>
-        <a href="{{ ups.url }}">{{ ups.data.title }}</a>
-      </h6>
-      <p>{{ ups.data.description }}</p>
-    </li>
-  {%- endfor -%}
-</ul>
+then this is the correct place to be!
 
-## Scales
+(This is not final text, just wanted to put something up there.)
 
-<ul class="teaser-links">
-  {%- for scale in collections.scale -%}
-    <li>
-      <h6>
-        <a href="{{ scale.url }}">{{ scale.data.title }}</a>
-      </h6>
-      <p>{{ scale.data.description }}</p>
-    </li>
-  {%- endfor -%}
-</ul>
+If you are just starting out, we recommend looking at the [Emulation Stack](/emulation-stack) or [Terminology](/terminology) sections.
+
+## Site organization
+
+This site is organized along multiple informational and use-based axis. Please refer to the side bar for the different site classifications.
+
+Site organization is derived from Rosenthal 2015 and Acker 2021. 
 
 ## About
 
