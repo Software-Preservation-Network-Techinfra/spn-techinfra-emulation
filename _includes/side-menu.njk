@@ -10,22 +10,16 @@
     {% for home in collections.home %}
       {{ menuItem(home) }}
     {% endfor %}
-    <h7 class="menu-item">Fans</h7>
-    <nav class="Fans">
-      {% for fan in collections.fan %}
-        {{ menuItem(fan) }}
+    <h7 class="menu-item">Conceptual Categories</h7>
+    <nav class="Conceptual">
+      {% for conceptual in collections.conceptual %}
+        {{ menuItem(conceptual) }}
       {% endfor %}
     </nav>
-    <h7 class="menu-item">UPSes</h7>
-    <nav class="UPSes">
-      {% for ups in collections.ups %}
-        {{ menuItem(ups) }}
-      {% endfor %}
-    </nav>
-    <h7 class="menu-item">Scales</h7>
-    <nav class="Scales">
-      {% for scale in collections.scale %}
-        {{ menuItem(scale) }}
+    <h7 class="menu-item">Personal Computers</h7>
+    <nav class="personalcomputers">
+      {% for personalcomputers in collections.personalcomputers %}
+        {{ menuItem(personalcomputers) }}
       {% endfor %}
     </nav>
   </nav>
