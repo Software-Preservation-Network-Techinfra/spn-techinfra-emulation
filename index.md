@@ -18,14 +18,10 @@ then this is the correct place to be!
 
 (This is not final text, just wanted to put something up there.)
 
-If you are just starting out, we recommend looking at the [Emulation Stack](/emulation-stack) or [Terminology](/terminology) sections.
+If you are just starting out, we recommend looking at the [Emulation Stack](/conceptual/stack) or [Terminology](/conceptual/terminology) sections.
 
 ## Site organization
 
 This site is organized along multiple informational and use-based axis. Please refer to the side bar for the different site classifications.
 
 Site organization is derived from Rosenthal 2015 and Acker 2021. 
-
-## About
-
-I've copied the templates over from Does it Beep for now, we can change this but I've left it as an example...
