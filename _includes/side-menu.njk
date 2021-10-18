@@ -22,5 +22,11 @@
         {{ menuItem(personalcomputers) }}
       {% endfor %}
     </nav>
+    <h7 class="menu-item">References</h7>
+    <nav class="references">
+      {% for references in collections.references %}
+        {{ menuItem(references) }}
+      {% endfor %}
+    </nav>
   </nav>
 </aside>
