@@ -10,16 +10,28 @@
     {% for home in collections.home %}
       {{ menuItem(home) }}
     {% endfor %}
-    <h7 class="menu-item">Conceptual Categories</h7>
-    <nav class="Conceptual">
-      {% for conceptual in collections.conceptual %}
-        {{ menuItem(conceptual) }}
+    <h7 class="menu-item">Basic Information</h7>
+    <nav class="basicinfo">
+      {% for info in collections.basicinfo %}
+        {{ menuItem(info) }}
       {% endfor %}
     </nav>
-    <h7 class="menu-item">Personal Computers</h7>
-    <nav class="personalcomputers">
-      {% for personalcomputers in collections.personalcomputers %}
-        {{ menuItem(personalcomputers) }}
+    <h7 class="menu-item">User Stories</h7>
+    <nav class="userstories">
+      {% for story in collections.userstories%}
+        {{ menuItem(story) }}
+      {% endfor %}
+    </nav>
+    <h7 class="menu-item">Use Cases</h7>
+    <nav class="usecases">
+      {% for case in collections.usecases %}
+        {{ menuItem(case) }}
+      {% endfor %}
+    </nav>
+    <h7 class="menu-item">Emulation Technologies</h7>
+    <nav class="emutech">
+      {% for technology in collections.emutech%}
+        {{ menuItem(technology) }}
       {% endfor %}
     </nav>
     <h7 class="menu-item">References</h7>
