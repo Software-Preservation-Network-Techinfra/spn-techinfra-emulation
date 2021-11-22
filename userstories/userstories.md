@@ -8,5 +8,5 @@ tags: navmain
 
 ## Introduction
 
-The user stories below are provided for guidance to resources that you might want to use. 
+The user stories below are provided for guidance to determine which resources you might want to use. 
 
