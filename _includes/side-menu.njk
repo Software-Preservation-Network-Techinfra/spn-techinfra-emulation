@@ -4,6 +4,7 @@
   </a>
 {% endmacro %}
 
+
 <aside class="side-menu">
   <h2>Navigation</h2>
   <nav class="menu-root">
@@ -16,7 +17,7 @@
         {{ menuItem(info) }}
       {% endfor %}
     </nav>
-    <h7 class="menu-item">User Stories</h7>
+    <h7 class="menu-item"><a href="/userstories">User Stories</a></h7>
     <nav class="userstories">
       {% for story in collections.userstories%}
         {{ menuItem(story) }}

@@ -2,6 +2,7 @@
 layout: layout/default
 title: User Stories
 tags: navmain
+permalink: /userstories
 ---
 
 # Guiding User Stories
